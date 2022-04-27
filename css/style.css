@@ -6,6 +6,7 @@
 }
 body{
     background-color: rgb(0, 0, 0);
+    color: white;
     
 }
 header{
@@ -18,9 +19,6 @@ a{
  
 }
 
-h1{
-    color:white;
-}
 /* classes e id´s */s
 
 .header{
@@ -49,7 +47,7 @@ h1{
 }
 
 .container{
-    width: 1850px;
+    width: 1180px;
     margin: 0 auto ;
     padding: 10px 0;
     color:white;
@@ -110,6 +108,30 @@ h1{
     background: no-repeat;
 }
 
+.gallary-card-btn{
+    border: 2px solid black;   
+    color:black;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 15px ;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.gallary-card-btn:hover{
+    background-color: white;
+    transition: 1s;
+}
+.gallery-image{
+    background-position: center;
+    background-size: 100%;
+    background-color: #4169E1;
+    background-blend-mode: multiply;
+}
+.gallery-image:hover{
+    transition: 1s;
+    background-size: 120%;
+    background-color: white;
+    background-blend-mode: multiply;
+}
 #card-1{
     background-image: url(../images/img-01-p.jpg);
 }
